@@ -1,0 +1,74 @@
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 2</title>
+</head>
+<body>
+    <header>
+        <h1>Usuários do Sistema</h1>
+        <p>Lista de usuários</p>
+    </header>
+
+    <main>
+        <section>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Usuário</th>
+                        <th>Perfil</th>
+                        <th>Avatar</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Admin</td>
+                        <td><strong>Administrador</strong></td>
+                        <td><img src="luffy.gif" alt="Avatar" class="avatar" width="100" height="100"></td>
+                        <td> <button>Detalhar</button>
+                            <p><button>Alterar Senha</button></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>User</td>
+                        <td><strong>Usuário</strong></td>
+                        <td><img src="zoro.gif" alt="Avatar" class="avatar" width="100" height="100"></td>
+                        <td> <button>Alterar</button>
+                             <button>Promover</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Guest</td>
+                        <td><strong><del>Convidado</del></strong></td>
+                        <td><img src="sanji.gif" alt="Avatar" class="avatar" width="100" height="100"></td>
+                        <td rowspan="2">
+                            <img src="circle-user-solid.svg" class="avatar" width="100" height="100"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Other_guest</td>
+                        <td><strong><del>Convidado</del></strong></td>
+                        <td><img src="nami.gif" alt="Avatar" class="avatar" width="100" height="100"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="5">Simplesmente uma linha mesclada</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+    </main>
+    
+    <footer>
+        <p>Os maiores usuários da interdimensional cable tv</p>
+    </footer>
+</body>
+</html>
